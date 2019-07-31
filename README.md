@@ -1,6 +1,6 @@
 # Training-Data_Splitter
 
-## A simple python module to split image training data into training, test, and evaluation directories.
+## A simple python module to split image training data into training, test, and validation directories.
 
 I have used this for
 training a YOLOv3 model. Data must be split into directories by class. The root directory shall contain one images directory
