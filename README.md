@@ -7,8 +7,8 @@ training a YOLOv3 model. Data must be split into directories by class. The root 
 for each class and one labels directory for each class. The name of the labels directory shall be the same as the image
 directory with '_labels' appended to the end, like this:
 
-images directory name for a single class: class1
-labels directory name for a single class: class1_labels
+### images directory name for a single class: class1
+### labels directory name for a single class: class1_labels
 
 The data will be organized into directories called 'images' and 'labels' with subdirectories for train, test, and validation
 sets.
