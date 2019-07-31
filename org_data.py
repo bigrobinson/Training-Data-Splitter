@@ -105,11 +105,11 @@ if __name__ == '__main__':
 
     test_ratio = 0.1
     val_ratio = 0.1
-    root_dir = '/home/brian/yolov3_ultralytics/data/RawTrainingData'
-    sub_dirs = ['Blu97_1000',
-                'MockMortar_1000',
-                'RPG_1000',
-                'DPICM_1000',
-                'Negative_1000']
+    root_dir = '$HOME/data/'
+    sub_dirs = ['Class1',
+                'Class2',
+                'Class3',
+                'Class4',
+                'Negatives']
 
     split_data(root_dir, sub_dirs, test_ratio, val_ratio)
